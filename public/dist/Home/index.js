@@ -33426,7 +33426,7 @@ const React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 const ReactDOM = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 class App extends React.Component {
   render() {
-    return /*#__PURE__*/React.createElement("div", null, "hola mundo");
+    return /*#__PURE__*/React.createElement("div", null, "home");
   }
 }
 function init() {

@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-        <!-- Styles -->
-    </head>
-    <body>
-         <!-- components react-->
-      <main></main>
-   
-      <!---->
-    <script src="/dist/Home/index.js" charset="utf-8"></script>
-    </body>
-</html>
+<x-Layouts.app 
+title="Home" 
+meta-description="Home descripcion"
+{{-- para pasar php por componentes se ponen : antes de 
+      las variables
+      :sum="2+2" --}}
+>
+     <!-- components react-->
+     <main></main>
+               <!---->
+      <script src="/dist/Home/index.js" charset="utf-8"></script>
+</x-Layouts.app>
+        

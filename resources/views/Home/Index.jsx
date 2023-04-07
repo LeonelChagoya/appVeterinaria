@@ -5,7 +5,7 @@ const ReactDOM = require('react-dom/client');
 class App extends React.Component {
     render() {
       
-        return <div>hola mundo</div>;
+        return <div>home</div>;
     }
 }
 
